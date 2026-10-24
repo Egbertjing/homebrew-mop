@@ -1,16 +1,11 @@
-# MOP for Homebrew on Linux
+# MOP compatibility tap
 
-MOP is modeio's all-in-one process monitor with AI security review.
+MOP is now published by **mode-io**. New installations should use:
 
 ```bash
-brew install Egbertjing/mop/mop
-mop
+brew install mode-io/tap/mop
 ```
 
-The tap and source repository are public. No GitHub login is required.
+Existing installations from this tap can still upgrade; its formula tracks the organization release.
 
-The formula pins MOP 0.9.3 and installs `mop`, `hmop`, and `bmop`. Models and privileged collectors are configured separately. MOP monitoring currently runs on Linux.
-
-Update: `brew update && brew upgrade Egbertjing/mop/mop`.
-
-[APT, RPM, Arch, uv, pipx, and setup](https://github.com/Egbertjing/all-in-one-modeio/blob/main/docs/packages.md)
+[Public MOP repository](https://github.com/mode-io/mop) · [Installation](https://github.com/mode-io/mop/blob/main/docs/packages.md)
