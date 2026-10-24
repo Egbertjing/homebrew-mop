@@ -1,10 +1,10 @@
 class Mop < Formula
   desc "modeio all-in-one process monitor with AI security review"
-  homepage "https://github.com/Egbertjing/all-in-one-modeio"
-  url "https://github.com/Egbertjing/all-in-one-modeio.git",
-      tag: "v0.9.3",
-      revision: "233dd0e12eb4cd1a181560df0a049733e341a703"
-  version "0.9.3"
+  homepage "https://github.com/mode-io/mop"
+  url "https://github.com/mode-io/mop.git",
+      tag: "v0.9.4",
+      revision: "d89c5db1e4243dcd61035c4786309254e7d37568"
+  version "0.9.4"
 
   depends_on :linux
   depends_on "python@3.12"
@@ -23,7 +23,7 @@ class Mop < Formula
     <<~EOS
       Run mop, hmop, or bmop.
       AI review uses a separately running model; deep collectors are optional.
-      Setup: https://github.com/Egbertjing/all-in-one-modeio/blob/main/docs/system-install.md
+      Setup: https://github.com/mode-io/mop/blob/main/docs/system-install.md
     EOS
   end
 
